@@ -1,7 +1,7 @@
 <h1>Codedamn - Math Training Game</h1>
 <hr>
 
-![App Screenshot](https://raw.githubusercontent.com/ritwickrajmakhal/number-converter/master/designs/design%20%5BDesktop%5D.png)
+![App Screenshot](https://raw.githubusercontent.com/ritwickrajmakhal/ScreenShots-for-math-training-game/master/sc1.png)
 
 ## Hello developer!
 This is one of the many projects available on codedamn to reinforce your learning by building. If you want to become a frontend developer and learn by practicing, feel free to attempt this challenge. Feel free to check out the codedamn frontend web developer learning path to learn more about how to become an awesome frontend developer.
