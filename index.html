@@ -1,27 +1,58 @@
 <!doctype HTML>
 <html>
-	<head>
-		<title>codedamn HTML Playground</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-		 <!--compiled and minified CSS -->
-		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-		 <!-- jQuery library -->
-		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		 <!--JavaScript -->
-		 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="/style.css" />
-	</head>
-	<body>
-		<main>
-			<h1></h1>
-			<!-- start writing your code -->
-			
-		</main>
-		<script src="/script.js"></script>
-	</body>
+
+<head>
+	<title>codedamn HTML Playground</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=Jost:wght@300&family=Roboto:wght@300&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<link rel="stylesheet" href="/style.css" />
+
+</head>
+
+<body>
+	<main>
+		<h1>Math Training Game</h1>
+		<!-- start writing your code -->
+		<div class="box">
+			<section class="sec1">
+				<p class="instruction">Choose the correct option</p>
+				<div class="operandBox">
+					<p id="operand1">45</p>
+				</div>
+				<div id="operator">+</div>
+				<div class="operandBox">
+					<p id="operand2">45</p>
+				</div>
+			</section>
+			<section class="sec2">
+				<div class="optionBox">
+					<p id="option1">95</p>
+				</div>
+				<div class="optionBox" >
+					<p id="option2">85</p>
+				</div>
+				<div class="optionBox" >
+					<p id="option3">80</p>
+				</div>
+				<div class="optionBox" >
+					<p id="option4">75</p>
+				</div>
+				<div class="msgSection">
+					<p id="msgbox">Result</p>
+				</div>
+			</section>
+		</div>
+		<audio id="correctBeep" src="assets/correct.mp3"></audio>
+		<audio id="wrongBeep" src="assets/wrong.mp3"></audio>
+	</main>
+	<script src="/script.js"></script>
+</body>
+
 </html>

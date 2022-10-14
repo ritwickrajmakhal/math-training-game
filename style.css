@@ -2,6 +2,91 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 /* start writing your code */
+main{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	background:radial-gradient(circle,rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+h1{
+	text-align: center;
+	color: white;
+	font-size: 3rem;
+}
+.box{
+	width: auto;
+	height: 50vh;
+	background-color: #e6e6e6;
+	border-radius: 2rem;
+	background:linear-gradient(#ec92af 0%, #5fc3e4 100%);
+	box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+.sec1{
+	height: 35%;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.instruction{
+	text-align: center;
+	text-transform: capitalize;
+	width: 100%;
+	font-size:1.3rem;
+	color: white;
+}
+.operandBox{
+	padding: 1.5rem;
+	border: 1px solid white;
+	border-radius: 1rem;
+}
+.operandBox p{
+	color: white;
+	font-size: 1.5rem;
+}
+#operator{
+	font-size: 1.5rem;
+	color: white;
+	padding: 15px 20px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+.sec2{
+	height: 65%;
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.optionBox{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.optionBox p{
+	/* background-color:rgb(77, 62, 71); */
+	padding: 1rem 2rem;
+	color: white;
+	font-size: 1.3rem;
+	border-radius: 10px;
+}
+.msgSection{
+	width: 100%;
+	padding: 10px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid white;
+	border-radius: 20px;
+}
+
