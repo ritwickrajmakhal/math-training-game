@@ -28,4 +28,3 @@ const generateAnswer = () => {
 // You should write code for step 5 from here.
 
 // You should call the generateAnswer() function here
-generateAnswer();
